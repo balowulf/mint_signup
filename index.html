@@ -10,7 +10,7 @@
   <title>Intuit Accounts - Sign Up</title>
 </head>
 <body>
-  <section>
+  <section class="top-page">
     <div class="nav-wrapper" style="height: 60px">
       <div class="nav-container">
         <div class="nav-column">
@@ -41,5 +41,54 @@
       </div>
     </section>
   </section>
+  <section class="form">
+    <header class="form-header">
+      <h1>One Account.</h1>
+      <h1>Everything Intuit.</h1>
+      <br>
+      <h4>Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a></h4>
+      <br>
+    </header>
+    <form action="#" class="sign-up" method="POST">
+      <fieldset id="email">
+        <label for="email">Email address</label><br>
+        <input type="email" name="email" id="email-input-box">
+      </fieldset>
+      <br>
+      <fieldset id="phone">
+        <label for="phone">Phone (recommended)</label><br>
+        <input type="tel" name="phone" id="phone-input-box">
+        <p id="rate-warning">Standard call, messaging, or data rates may apply.</p>
+      </fieldset>
+      <br>
+      <fieldset id="password">
+        <label for="password">Password</label><br>
+        <input type="text" name="password" id="password-input-box" placeholder="">
+      </fieldset>
+      <br>
+      <div class="submit-section">
+        <button class="submit" type="submit"><span><i class="fas fa-lock"></i></span>Create Account</button>
+      </div>
+      <div class="license-agreement">
+        <p>By clicking Create Account, you agree to our <a href="#">License Agreement</a> and have read and acknowledge our <a href="#">Privacy Statement</a></p>
+      </div>
+    </form>
+  </section>
+  <section class="recaptcha">
+    <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+  </section>
+  <footer>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Security</a></li>
+      </ul>
+    </div>
+    <div class="footer-terms">
+      <p>&copy; 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QA, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+      <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </div>
+  </footer>
 </body>
 </html>
