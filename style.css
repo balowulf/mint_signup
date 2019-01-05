@@ -61,9 +61,14 @@ div {
 }
 
 fieldset {
-  border    : none;
-  box-shadow: none;
-  text-align: left;
+  border     : none;
+  box-shadow : none;
+  text-align : left;
+  line-height: 2rem;
+}
+
+#rate-warning {
+  font-size: 10px;
 }
 
 h1, 
@@ -71,14 +76,23 @@ h4 {
   font-weight: 400;
 }
 
+h1 {
+  line-height: 1.5rem;
+}
+
+h4 {
+  font-size: 14px;
+}
+
 .form {
-  background: white;
-  border    : 1px solid rgb(199, 199, 199);
-  width     : 18em;
-  height    : 35em;
-  margin    : 1rem auto 0 auto;
-  padding   : 2rem;
-  text-align: center;
+  background   : white;
+  border       : 1px solid rgb(199, 199, 199);
+  border-bottom: none;
+  width        : 18em;
+  height       : 35em;
+  margin       : 1rem auto 0 auto;
+  padding      : 2rem;
+  text-align   : center;
 }
 
 input {
@@ -94,25 +108,46 @@ input {
   height       : 34px;
   width        : 90%;
   font-size    : 18px;
+  margin       : 1rem auto;
+}
+
+.license-agreement {
+  margin: 2rem auto;
+  color : #b1b1b1;
+  font-size: 12px;
 }
 
 .recaptcha {
   background: #eceef1;
   border    : 1px solid rgb(199, 199, 199);
-  width     : 22em;
   text-align: center;
+  height    : 2rem;
+  width     : 35.25em;
   margin    : 0 auto;
+  color     : #6f6f70;
+  font-size : 10px;
+  border-top: none;
+  padding-top: 1rem;
 }
 
 footer {
   position  : absolute;
   bottom    : 0;
   height    : 60px;
-  width     : 50%;
-  margin    : 2rem;
+  width     : 95%;
+  margin    : 2rem 2rem 0 2rem;
   text-align: center;
+  font-size : 12px;
 }
 
 li {
   display: inline;
+}
+
+a {
+  color: rgb(0, 119, 197);
+}
+
+.footer-link {
+  color: #505050;
 }
