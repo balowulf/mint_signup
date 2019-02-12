@@ -67,6 +67,12 @@ fieldset {
   line-height: 2rem;
 }
 
+label {
+  font-size: 14px;
+}
+
+
+
 #rate-warning {
   font-size: 10px;
 }
@@ -107,7 +113,7 @@ input {
   color        : white;
   height       : 34px;
   width        : 90%;
-  font-size    : 18px;
+  font-size    : 16px;
   margin       : 1rem auto;
 }
 
